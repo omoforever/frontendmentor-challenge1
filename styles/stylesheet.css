@@ -1,0 +1,119 @@
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit-semibold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.outfit-bold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    /* Optional: adds breathing room on small screens */
+    box-sizing: border-box;
+}
+
+h2 {
+    color: hsl(332, 51%, 32%);
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-section {
+    background: hsl(330, 100%, 98%);
+    padding: 1rem;
+    /*Rose 800 : hsl(332, 51%, 32%)*/
+    /* - Rose 50: hsl(330, 100%, 98%) */
+}
+
+.preparation-section>ul>li {
+    margin-bottom: 1rem;
+}
+
+
+.ingredients-section>ul>li {
+    margin-bottom: 1rem;
+}
+
+.instructions-section>ol>li {
+    margin-bottom: 1rem;
+}
+
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+hr {
+    margin-block: 2rem;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.95rem;
+}
+
+.nutrition-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.nutrition-table tr:last-child td {
+    border-bottom: none;
+}
+
+.nutrition-table td:first-child {
+    color: hsl(30, 10%, 34%)
+}
+
+.nutrition-table td:last-child {
+    font-weight: bold;
+    text-align: left;
+    color: hsl(332, 51%, 32%);
+}
